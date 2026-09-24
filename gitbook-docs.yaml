@@ -1,0 +1,18 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: MY MANTRA'S API
+  structure:
+    - type: space
+      key: space-1
+      title: launchme
+      path: my-mantras-api
+      default: true
+      content:
+        directory: ./my-mantras-api
+    - type: space
+      key: space-2
+      title: API Reference
+      path: api-reference
+      draft: true
+      content:
+        directory: ./api-reference
